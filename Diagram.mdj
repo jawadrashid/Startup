@@ -1051,7 +1051,7 @@
 											"top": 703,
 											"width": 127,
 											"height": 13,
-											"text": "ConsumerPortfolio"
+											"text": "myBookings"
 										},
 										{
 											"_type": "LabelView",
@@ -3647,7 +3647,7 @@
 											"top": 703,
 											"width": 142.27001953125,
 											"height": 13,
-											"text": "Photographer Portfolio"
+											"text": "photographerPortfolio"
 										},
 										{
 											"_type": "LabelView",
@@ -7285,7 +7285,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ConsumerPortfolio",
+					"name": "myBookings",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -7439,7 +7439,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Photographer Portfolio",
+					"name": "photographerPortfolio",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -7502,7 +7502,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFtDWLawW3AFeQ="
 							},
-							"name": "Form for User"
+							"name": "Form for User",
+							"type": ""
 						}
 					]
 				},
@@ -7580,7 +7581,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFtDXz9C7S0Yi4="
 							},
-							"name": "Are you a photographer or a user?"
+							"name": "Are you a photographer or a user?",
+							"type": ""
 						}
 					]
 				}
